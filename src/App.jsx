@@ -1,7 +1,7 @@
 
 import './index.css'
-
-import ResponsiveNav from './Component/ResponsiveNav/ResponsiveNav'
+import Newnav from './Component/NewNav/Newnav'
+// import ResponsiveNav from './Component/ResponsiveNav/ResponsiveNav'
 import { BrowserRouter } from 'react-router-dom'
 
 
@@ -10,7 +10,8 @@ function App() {
 
   return (
    <BrowserRouter>
-   <ResponsiveNav/>
+   {/* <ResponsiveNav/> */}
+   <Newnav/>
    
    </BrowserRouter>
   )
